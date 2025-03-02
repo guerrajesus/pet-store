@@ -22,8 +22,6 @@ public class PetStore {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY) //tells JPA how primary key is managed, in this case by mySQL
 	private Integer petStoreId;
-	
-	
 	private String petStoreName;
 	private String petStoreAddress;
 	private String petStoreCity;
