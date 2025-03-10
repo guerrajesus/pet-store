@@ -55,7 +55,7 @@ public class PetStoreData { //DTO or java object
 		private String customerLastName;
 		private String customerEmail;
 		
-		PetStoreCustomer(Customer customer) { //Constructor
+		public PetStoreCustomer(Customer customer) { //Constructor
 			this.customerId = customer.getCustomerId();
 			this.customerFirstName = customer.getCustomerFirstName();
 			this.customerLastName = customer.getCustomerLastName();
@@ -72,7 +72,7 @@ public class PetStoreData { //DTO or java object
 		private String employeePhone;
 		private String employeeJobTitle;
 		
-		PetStoreEmployee(Employee employee) { //Constructor
+		 public PetStoreEmployee(Employee employee) { //Constructor
 			this.employeeId = employee.getEmployeeId();
 			this.employeeFirstName = employee.getEmployeeFirstName();
 			this.employeeLastName = employee.getEmployeeLastName();

@@ -27,7 +27,7 @@ public class Employee {
 	
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude
-	@ManyToOne(cascade = CascadeType.ALL)
+	@ManyToOne(cascade = CascadeType.ALL) //Many employees to 1 pet store
 	@JoinColumn(name = "pet_store_id") //use the snack_case 
 	private PetStore petStore;
 	
